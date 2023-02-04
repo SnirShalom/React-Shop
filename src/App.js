@@ -39,7 +39,6 @@ function App() {
     if (newCart[i].quantity > 1) {
       newCart[i].quantity -= 1;
     } else {
-      // console.log(newCart);
       newCart.splice(i, 1);
     }
     setCart(newCart);
